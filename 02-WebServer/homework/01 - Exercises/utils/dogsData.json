@@ -1,0 +1,44 @@
+{
+   "results": [
+      {
+         "name": "Asiatic Doge",
+         "popularity": 54,
+         "profile": "https://res.cloudinary.com/dbktfquei/image/upload/v1669817075/asiatico_brenc0.jpg"
+      },
+      {
+         "name": "Rainbow Doge",
+         "popularity": 26,
+         "profile": "https://res.cloudinary.com/dbktfquei/image/upload/v1669817076/arcoiris_pqrqsy.png"
+      },
+      {
+         "name": "Hangover Doge",
+         "popularity": 86,
+         "profile": "https://res.cloudinary.com/dbktfquei/image/upload/v1669816940/resaca_bjnri5.jpg"
+      },
+      {
+         "name": "Code Doge",
+         "popularity": 43,
+         "profile": "https://res.cloudinary.com/dbktfquei/image/upload/v1669817076/code_dxpuge.jpg"
+      },
+      {
+         "name": "BadBoy Doge",
+         "popularity": 16,
+         "profile": "https://res.cloudinary.com/dbktfquei/image/upload/v1669817076/badboy_a0iush.png"
+      },
+      {
+         "name": "Muscular Doge",
+         "popularity": 97,
+         "profile": "https://res.cloudinary.com/dbktfquei/image/upload/v1669817075/musculoso_pvvtmg.jpg"
+      },
+      {
+         "name": "Bread Doge",
+         "popularity": 45,
+         "profile": "https://res.cloudinary.com/dbktfquei/image/upload/v1669817075/pancito_y8dpb4.jpg"
+      },
+      {
+         "name": "Soft Doge",
+         "popularity": 69,
+         "profile": "https://res.cloudinary.com/dbktfquei/image/upload/v1669817075/debil_rkfm0l.jpg"
+      }
+   ]
+}

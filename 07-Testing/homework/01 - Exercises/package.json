@@ -1,0 +1,17 @@
+{
+   "name": "01---exercises",
+   "version": "1.0.0",
+   "description": "testing homework",
+   "main": "index.js",
+   "directories": {
+      "test": "test"
+   },
+   "scripts": {
+      "test": "jest --verbose --detectOpenHandles --forceExit"
+   },
+   "author": "Henry",
+   "license": "ISC",
+   "dependencies": {
+      "jest": "^29.3.1"
+   }
+}

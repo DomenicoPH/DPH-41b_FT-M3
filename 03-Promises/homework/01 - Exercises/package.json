@@ -1,0 +1,17 @@
+{
+  "name": "02-promises",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --verbose --detectOpenHandles --forceExit",
+    "test:callback": "jest --verbose --detectOpenHandles --forceExit tests/callbacks.test.js",
+    "test:promises": "jest --verbose --detectOpenHandles --forceExit tests/promises.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.3",
+    "chalk": "^4.1.0",
+    "jest": "^27.5.1"
+  }
+}
