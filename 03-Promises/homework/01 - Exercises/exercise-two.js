@@ -28,6 +28,15 @@ function problemA() {
 
   // promise version
   // Tu código acá:
+  const promOne = exerciseUtils
+    .promisifiedReadFile("poem-two/stanza-01.txt")
+    .then((stanza1) => exerciseUtils.blue(stanza1));
+  const promTwo = exerciseUtils
+    .promisifiedReadFile("poem-two/stanza-02.txt")
+    .then((stanza2) => exerciseUtils.blue(stanza2));
+  Promise
+    .all([promOne, promTwo])
+    .finally(() => console.log('done'))
 }
 
 function problemB() {
@@ -47,6 +56,12 @@ function problemB() {
 
   // promise version
   // Tu código acá:
+  filenames.forEach((filename) => 
+    exerciseUtils
+    .promisifiedReadFile(filename)
+    .then(stanza => exerciseUtils.blue(stanza))
+    .catch(error => exerciseUtils.magenta(new Error(error)))
+  );
 }
 
 // EJERCICIO EXTRA
@@ -54,5 +69,14 @@ function problemC() {
   let fs = require("fs");
   function promisifiedWriteFile(filename, str) {
     // tu código acá:
+    return new Promise((resolve,reject) => {
+      fs.writeFile(filename,str,(error) => {
+        if(error){
+          reject(error);
+        } else {
+          resolve()
+        }
+      })
+    })
   }
 }
